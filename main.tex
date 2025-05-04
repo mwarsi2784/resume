@@ -1,0 +1,369 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+% ----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Muhammad Zulqarnain Warsi} \\ \vspace{1pt}
+    North Nazimabad, Karachi, Sindh, Pakistan 74600 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +92-336-3667501 ~ \href{mailto:zulqarnainwarsi@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{zulqarnainwarsi@gmail.com}} ~ 
+    \href{https://linkedin.com/in/mwarsi2784/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/mwarsi2784}}  ~
+    \href{https://github.com/mwarsi2784}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/mwarsi2784}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+%-----------EDUCATION-----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {FAST NUCES Karachi}{August 2021 -- June 2025}
+      {Bachelor of Science in Computer Science}{Karachi, Pakistan}
+      \resumeItem{\textbf{Teaching assistant:} Calculus and Analytical Geometry}
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+%------RELEVANT COURSEWORK-------
+
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item \small Programming Fundamentals
+                \item \small Data Structures
+                \item \small Object Oriented Programming
+                \item \small Database Systems	
+                \item \small Software for Mobile Devices
+                \item \small Software Testing
+                \item \small Agile Software Project Management
+                \item \small Software Project Management
+                \item \small Data Science
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+%-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Electronics Company}{May 2020 -- August 2020}
+%       {Software Engineer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+%         \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
+%         \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+%         \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Startup, Inc}{May 2019 -- August 2019}
+%       {Front End Developer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%         \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%         \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+%         \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
+%     \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+
+
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+          {\textbf{Surveil Smart: AI-driven Surveillance System} $|$ \emph{Python, Apache Kafka, React.js}}{December 2024 - present}
+          \resumeItemListStart
+            \resumeItem{Designing an AI-powered surveillance system to optimize retail operations using computer vision.}
+            \resumeItem{Implementing real-time data streaming with \textbf{Apache Kafka and Redis} to reduce operational costs by 15\%.}
+            \resumeItem{Implementing \textbf{face recognition} and \textbf{age/gender} classification models \textbf{(DeepFace)} with 90\%+ accuracy.}
+            \resumeItem{Analyzing customer behavior patterns using heat maps to optimize store layouts.}
+            \resumeItem{Architecting a highly scalable backend with Apache Kafka for real-time data processing.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/mwarsi2784/Railway-Management-System}{Railway Management System {\faGithub} }} $|$ \emph{Node.js, Express.js, Postman, MySQL}}{December 2023}
+          \resumeItemListStart
+            \resumeItem{Built a project with Node.js, Express.js, and MySQL, creating RESTful APIs for managing passengers and schedules.}
+            \resumeItem{Enabled two separate views for users and admins, ensuring role-based access and tailored functionality.}
+            \resumeItem{Led a team of 3 developers through Agile practices, successfully delivering the complete system within 2 months.}
+            \resumeItem{Integrated password hashing and implemented SQL injection prevention, achieving 100\% pass rate in security tests.}
+            \resumeItem{Designed a normalized database with 10+ triggers, improving query performance by 35\% and ensuring data integrity.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/mwarsi2784/Word_Hunt_Game}{Word Hunt Game {\faGithub}}} $|$ \emph{x86 Assembly}}{December 2022}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a word-finding game using x86 assembly language and the Irvine library.}
+            \resumeItem{Implemented directional search (4 directions) on a dynamic character grid.}
+            \resumeItem{Optimized logic for word detection and player movement within x86 architecture constraints.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/mwarsi2784/Cricket-Score-Management-System}{Cricket Score Management System {\faGithub}}} $|$ \emph{C++}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a Cricket Score Management System in C++ using Object-Oriented Programming (OOP) principles.}
+            \resumeItem{Implemented file handling to enable persistent data storage and efficient score tracking.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+
+
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{:  C/C++, Python, Dart, SQL, JavaScript} \\
+     \textbf{Technologies}{: HTML5, CSS3, Node.js, Express.js, Flutter, Linux} \\
+     \textbf{Developer Tools}{: Postman, Git/GitHub, VS Code}
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+
+
+
+
+
+
+%-----------Achievements-----------
+\section{Competitive Programming Achievements}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+          {\textbf{High Honors, ICPC 2024 Online Round, Topi Regional}}{November 2024}
+          \resumeItemListStart
+            \resumeItem{Achieved \textbf{high honors} in the ICPC 2024 Online Round for the Topi Regional, demonstrating exceptional problem-solving and coding skills.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{IEEEXtreme 18.0}}{October 2024}
+          \resumeItemListStart
+            \resumeItem{Ranked \textbf{795/5801} in IEEE Xtreme 18.0 Programming Competition \textbf{(Global Rank: 795)}.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+    \resumeProjectHeading
+          {\textbf{CodersCup 2025 – Finalist}}{November 2024}
+          \resumeItemListStart
+            \resumeItem{Secured \textbf{3rd place} in the competition among peers in my batch during the final round.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Developer's Day 2024 Competitive Programming Contest}}{April 2024}
+          \resumeItemListStart
+            \resumeItem{Secured \textbf{3rd position out of 64 teams} in Developer's Day at FAST NUCES Karachi, ranking in the \textbf{top 5\%}  teams.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Procom'24 Competitive Programming Contest}}{March 2024}
+          \resumeItemListStart
+            \resumeItem{Achieved \textbf{3rd position out of 32 teams} in the final round of the Procom'24 Competitive Programming Contest, placing in the \textbf{top 10\%}.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+
+
+
+
+
+
+% %-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Teaching Assistant}{Fall Semester 2024-2025}{Calculus}{FAST NUCES Karachi}
+%             \resumeItemListStart
+%                 \resumeItem{Graded 3 assignments and 3 quizzes for a class of 53 students in the Calculus course during the Fall 2024–2025 semester.}
+%                 \resumeItem{Provided constructive feedback to help students improve their understanding of core mathematical concepts.}
+%             \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+
+\end{document}
+
