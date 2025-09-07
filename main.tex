@@ -85,6 +85,8 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
+\newcommand{\sectionspace}{\vspace{-10pt}}
+
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -114,17 +116,21 @@
 \end{center}
 
 
+\sectionspace
+
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {FAST NUCES Karachi}{August 2021 -- June 2025}
-      {Bachelor of Science in Computer Science \textbf{ \cgpa/4.00 CGPA - (\percentage)}}{Karachi, Pakistan}
-      \resumeItem{\textbf{Teaching assistant:} Calculus and Analytical Geometry}
+      {Bachelor of Science in Computer Science} {Karachi, Pakistan}
+      \resumeItem{\textbf{Teaching Assistant:} Calculus and Analytical Geometry}
   \resumeSubHeadingListEnd
+\sectionspace
 
 
-%------RELEVANT COURSEWORK-------
+% ------RELEVANT COURSEWORK-------
 \section{Relevant Coursework}
     \begin{multicols}{3}
         \begin{itemize}[itemsep=-5pt, parsep=3pt]
@@ -139,7 +145,25 @@
             \item \small Data Science
         \end{itemize}
     \end{multicols}
+    \vspace{10pt}
     \vspace*{2.0\multicolsep}
+\vspace{-5pt}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Work History}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Impetus Systems}{July 2025 -- Present}
+      {Software Engineer I}{Karachi, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Created an optimized SQL stored procedure for generating a dynamic Type Mapping Report, integrated with an ASP.NET backend and Angular frontend for pivot-based dynamic tables, including PDF and Excel export functionality.}
+        \resumeItem{Developed a MySQL stored procedure to validate employee roles and return inactive/missing user logins, enabling Angular frontend to display real-time error popups.}
+        \resumeItem{Resolved multiple frontend and backend bugs, improving application stability and performance.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\sectionspace
 
 
 %-----------PROJECTS-----------
@@ -147,13 +171,13 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
     \resumeProjectHeading
-          {\textbf{Surveil Smart: AI-driven Surveillance System} $|$ \emph{Python, React.js, Tauri, PostgreSQL}}{December 2024 - Present}
+          {\textbf{Surveil Smart: AI-driven Surveillance System} $|$ \emph{Python, React.js, Tauri, PostgreSQL}}{May 2025}
           \resumeItemListStart
-            \resumeItem{Designing an AI-powered surveillance system to optimize retail operations using computer vision.}
-            \resumeItem{Implementing real-time data streaming with \textbf{Apache Kafka} to reduce operational costs by 15\%.}
-            \resumeItem{Implementing \textbf{face recognition} and \textbf{age/gender} classification models \textbf{(DeepFace)} with 90\%+ accuracy.}
-            \resumeItem{Analyzing customer behavior patterns using heat maps to optimize store layouts.}
-            \resumeItem{Architecting a highly scalable backend with Apache Kafka for real-time data processing.}
+            \resumeItem{Designed an AI-powered surveillance system to optimize retail operations using computer vision.}
+            \resumeItem{Implemented real-time data streaming with \textbf{Apache Kafka} to reduce operational costs by 15\%.}
+            \resumeItem{Implemented \textbf{face recognition} and \textbf{age/gender} classification models \textbf{(DeepFace)} with 90\%+ accuracy.}
+            \resumeItem{Analyzed customer behavior patterns using heat maps to optimize store layouts.}
+            \resumeItem{Architected a highly scalable backend with Apache Kafka for real-time data processing.}
           \resumeItemListEnd
           \vspace{-13pt}
     \resumeProjectHeading
@@ -181,7 +205,7 @@
             \resumeItem{Implemented file handling to enable persistent data storage and efficient score tracking.}
           \resumeItemListEnd   
     \resumeSubHeadingListEnd
-\vspace{-15pt}
+\sectionspace
 
 
 %-----------PROGRAMMING SKILLS-----------
@@ -189,46 +213,39 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Programming Languages}{:  C/C++, Python, Dart, SQL, JavaScript} \\
-     \textbf{Technologies}{: Node.js, Express.js, React.js, Linux, HTML5, CSS3} \\
+     \textbf{Technologies}{: Node.js, Express.js, React.js, ASP.NET,  Linux, HTML5, CSS3} \\
      \textbf{Developer Tools}{: Postman, Git/GitHub, VS Code}
     }}
  \end{itemize}
- \vspace{-15pt}
+\sectionspace
 
 
 %-----------Achievements-----------
 \section{Achievements}
-\vspace{-5pt}
-\resumeSubHeadingListStart
+ \resumeSubHeadingListStart
   \resumeItemListStart
-    \vspace{4pt}
-    \resumeItem{Achieved \textbf{high honors} in the ICPC 2024 Online Round for the Topi Regional, demonstrating exceptional problem-solving and coding skills.}
-    \vspace{4pt}
+    \resumeItem{Achieved \textbf{high honors} in the ICPC 2024 Online Round for the Topi Regional, demonstrating exceptional coding skills.}
     \resumeItem{Ranked \textbf{795/5801} in IEEE Xtreme 18.0 Programming Competition \textbf{(Global Rank: 795)}.}
-    \vspace{4pt}
     \resumeItem{Secured \textbf{3rd place} in CodersCup 2025 among peers in my batch during the final round.}
-    \vspace{4pt}
     \resumeItem{Secured \textbf{3rd position out of 64 teams} in Developer's Day at FAST NUCES Karachi, ranking in the \textbf{top 5\%} teams.}
-    \vspace{4pt}
     \resumeItem{Achieved \textbf{3rd position out of 32 teams} in Procom'24 Competitive Programming Contest, placing in the \textbf{top 10\%}.}
   \resumeItemListEnd
-\resumeSubHeadingListEnd
-\vspace{-15pt}
+ \resumeSubHeadingListEnd
+\sectionspace
 
 
 %-----------Certification-----------
-\section{Certifications}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-          {\textbf{Completed The Complete Web Development Bootcamp by Angela Yu – Udemy }}{July 2025}
-          \resumeItemListStart
-            \resumeItem{Built multiple web apps using JavaScript, Node.js, Express, PostgreSQL and React.
-            Gained hands-on experience with REST APIs, authentication, Git and Postman}
-          \resumeItemListEnd
-          \vspace{-13pt}      
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
+% \section{Certifications}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%     \resumeProjectHeading
+%           {\textbf{Completed The Complete Web Development Bootcamp by Angela Yu – Udemy }}{July 2025}
+%           \resumeItemListStart
+%             \resumeItem{Built multiple web apps using JavaScript, Node.js, Express, PostgreSQL and React.
+%             Gained hands-on experience with REST APIs, authentication, Git and Postman.}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+% \sectionspace
 
 
 \end{document}
